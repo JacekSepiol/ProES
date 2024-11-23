@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			dodajWierszDoTabeli(wiersz);
 		});
 
-		// Pokazuj tabelę tylko, jeśli są dane
+		// Pokazuj tabelę tylko, jeśli są dane hehehe
 		if (tabelaDane.length > 0) {
 			tabela.classList.remove("ukryta");
 		} else {

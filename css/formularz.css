@@ -1,0 +1,60 @@
+body {
+	background-image: url("../img/honey_im_subtle.png");
+	font-size: 20px;
+}
+
+#conteiner {
+	background-color: white;
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(97, 91, 97, 1);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(97, 91, 97, 1);
+	box-shadow: 3px 3px 30px 5px rgba(97, 91, 97, 1);
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 300px;
+	background-color: #efefef;
+	color: #15a05d;
+	border: 2px sloid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-bottom: 5px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(97, 91, 97, 1);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(97, 91, 97, 1);
+	box-shadow: 0px 0px 10px 5px rgba(97, 91, 97, 1);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type="submit"],
+input[type="button"] {
+	width: 300px;
+	background-color: #36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+	background-color: #6bc370;
+}
